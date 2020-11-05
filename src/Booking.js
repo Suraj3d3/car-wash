@@ -3,13 +3,16 @@ import './App.css';
 function Bookingfun(){
     return (
      
-          <div className="introDiv">
-              <div>
-                <h1 className="headerText"> <span className="redText"> C</span>ar Wash - Best Car Washing Services at Your Doorstep<br/>   </h1>
-              </div>
   
+             <form>
+  <label>
+    Name:
+    <input type="text" name="name" />
+  </label>
+  <input type="submit" value="Submit" />
+</form>
               
-        </div>
+     
       
     );
   }
