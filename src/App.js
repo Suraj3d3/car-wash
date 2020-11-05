@@ -1,10 +1,13 @@
 import React from 'react';
 import './App.css';
-import carWashImg from './assets/carWash.jpg';
+import { Route, Link, BrowserRouter, Switch } from 'react-router-dom'
+
 import Home from './Home'
 import About from './About'
 import Contactus from './Contactus'
-import { Route, Link, BrowserRouter, Switch } from 'react-router-dom'
+import Booking from './Booking'
+import Services from './Services'
+import Footer from'./footer'
 
 function Router()
 {
@@ -19,7 +22,7 @@ function Router()
              <Link to="/aboutus">ABOUT US</Link>
           </li>
           <li className="marginTop">
-             <Link to="/contactus">SERVICES</Link>
+             <Link to="/Services">SERVICES</Link>
           </li>
           <li className="marginTop">
              <Link to="/contactus">FAQ'S</Link>
@@ -33,8 +36,12 @@ function Router()
        <Switch>
           <Route exact path="/" component={Home} />
           <Route path="/aboutus" component={About} />
+          <Route path="/Services" component={Services} />
           <Route path="/Contactus" component={Contactus} />
+          <Route path="/Booking" component={Booking} />
+         
        </Switch>
+       <Footer/>
     </div>
  </ BrowserRouter >)
 }

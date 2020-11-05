@@ -78,7 +78,16 @@ text-align: center;
 .headerPara{
   font-size: 20px;
 }
-
+.desc{
+  font-size: 16px;
+  line-height:1.5;
+}
+.title{
+  font-size: 30px; 
+}
+.serviceViewWidth{
+  width: 400;
+}
 .servicesDiv{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -106,3 +115,13 @@ text-align: center;
 }
 
 #link { color: #000000; } /* CSS link color */
+
+.footer{
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: rgb(18, 79, 148);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
