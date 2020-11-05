@@ -47,17 +47,17 @@ function Carousel() {
         <Slide>
           <div className="each-slide">
             <div style={{'backgroundImage': `url(${slideImages[0]})`,height:600}}>
-              <span>carWash</span>
+              <span>Book Now</span>
             </div>
           </div>
           <div className="each-slide">
             <div style={{'backgroundImage': `url(${slideImages[1]})`,height:600}}>
-              <span>carWash</span>
+              <span>Book Now</span>
             </div>
           </div>
           <div className="each-slide">
             <div style={{'backgroundImage': `url(${slideImages[2]})`,height:600}}>
-              <span>carWash</span>
+              <span>Book Now</span>
             </div>
           </div>
         </Slide>
