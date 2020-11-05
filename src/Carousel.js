@@ -6,6 +6,7 @@ import carWashImg3 from './assets/slide4.jpg';
 import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css'
 import "./styles.css";
+import { Route, Link, BrowserRouter, Switch } from 'react-router-dom'
 function Carousel() {
     
     const [slides, setSlides] = useState([
@@ -47,17 +48,20 @@ function Carousel() {
         <Slide>
           <div className="each-slide">
             <div style={{'backgroundImage': `url(${slideImages[0]})`,height:600}}>
-              <span>Book Now</span>
+              <span><Link  id="link" to="/Booking">Book Now </Link></span>
+              
             </div>
           </div>
           <div className="each-slide">
             <div style={{'backgroundImage': `url(${slideImages[1]})`,height:600}}>
-              <span>Book Now</span>
+              <span><Link  id="link" to="/Booking">Book Now </Link></span>
+              
             </div>
           </div>
           <div className="each-slide">
             <div style={{'backgroundImage': `url(${slideImages[2]})`,height:600}}>
-              <span>Book Now</span>
+              <span><Link  id="link" to="/Booking">Book Now </Link></span>
+              
             </div>
           </div>
         </Slide>
