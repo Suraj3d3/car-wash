@@ -2,13 +2,14 @@ import React from 'react';
 import './App.css';
 import Carousel from './Carousel'
 //component to add Intro of website
+
 function IntroDev(){
     return (
      
           <div className="introDiv">
-            <div className="centerImg">  
+           
                <Carousel/>
-              </div>
+            
               <div>
                 <h1 className="headerText title "> <span className="redText"> C</span>ar Wash - Best Car Washing Services at Your Doorstep<br/>   </h1>
                 <p className="headerPara"> Everyone wants to look their best when they step out of their house. When you take the time to get ready and look sharp, why not give your car the same treatment as well? In case you cannot find the time to take your car out to get it cleaned, give us a call, and our professional cleaning crew will be at your doorstep in no time. While you are busy getting ready or while you are at work, our team will meticulously clean your car to leave it sleek and shining. Choose any of our affordable monthly plans and enjoy hassle-free car wash at your parking. Try TBCarWash’s car wash at doorstep service and give your car the five-star treatment today!</p>
@@ -50,13 +51,7 @@ function IntroDev(){
             <h1> One Click </h1>
             <p> Our mobile app provides one click auto services at your doorstep. Download and enjoy doorstep auto services.</p>
         </div>
-        <div class="copyright_wrap copyright_style_text  scheme_original">
-                      <div class="copyright_wrap_inner">
-                          <div class="content_wrap">
-                                                          <div class="copyright_text"><p>© 2020 carWash. All Rights Reserved. Conceptualised &amp; Designed by Krishna</p></div>
-                          </div>
-                      </div>
-                  </div>
+        
       </div>
     );
   }

@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from 'react';
-import carWashImg from './assets/carWash.jpg';
-import carWashImg1 from './assets/slide2.jpeg';
-import carWashImg2 from './assets/slide3.jpeg';
+import carWashImg from './assets/slide6.jpg';
+import carWashImg1 from './assets/slide7.jpg';
+import carWashImg2 from './assets/slide8.jpg';
 import carWashImg3 from './assets/slide4.jpg';
 import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css'
 import "./styles.css";
-import { Route, Link, BrowserRouter, Switch } from 'react-router-dom'
+
 function Carousel() {
     
     const [slides, setSlides] = useState([
@@ -28,6 +28,7 @@ function Carousel() {
         }
     ]);
     const slideImages = [
+        carWashImg,
         carWashImg1,
         carWashImg2,
         carWashImg3,
@@ -48,19 +49,19 @@ function Carousel() {
         <Slide>
           <div className="each-slide">
             <div style={{'backgroundImage': `url(${slideImages[0]})`,height:600}}>
-              <span><Link  id="link" to="/Booking">Book Now </Link></span>
+              <span className='bookNowBtn'> <a href=""> Book Now </a> </span>
               
             </div>
           </div>
           <div className="each-slide">
             <div style={{'backgroundImage': `url(${slideImages[1]})`,height:600}}>
-              <span><Link  id="link" to="/Booking">Book Now </Link></span>
+              <span> <a href=""> Book Now </a> </span>
               
             </div>
           </div>
           <div className="each-slide">
             <div style={{'backgroundImage': `url(${slideImages[2]})`,height:600}}>
-              <span><Link  id="link" to="/Booking">Book Now </Link></span>
+              <span>  <a href=""> Book Now </a> </span>
               
             </div>
           </div>

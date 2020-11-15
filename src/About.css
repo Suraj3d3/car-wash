@@ -1,0 +1,18 @@
+
+.aboutUsCol1{
+    /* background-color: rgb(80, 80, 80); */
+    /* color:azure; */
+   font-size: 20px;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.circularImg{
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+}
+
